@@ -42,7 +42,7 @@ public class HomeActivity extends AppCompatActivity implements RestaurantesListe
 
         Restaurante restaurante3 = new Restaurante();
         restaurante3.setImageRestaurant(R.drawable.restaurant3);
-        restaurante3.setNameRestaurant("Jun Japanese Foode");
+        restaurante3.setNameRestaurant("Jun Japanese Food");
         restaurante3.setAddressRestaurant("International Shopping - Guarulhos");
         restaurante3.setCloseRestaurant("Fecha às 22:00");
         listaRestaurante.add(restaurante3);

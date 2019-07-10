@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RestauranteDetalheActivity"
-    android:background="@color/ultra_light_grey">
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/detalhe_foto_restaurante"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
         android:src="@null"
         app:layout_constraintBottom_toTopOf="@+id/pratos_principais"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,9 +36,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:textSize="24sp"
+        android:layout_marginBottom="8dp"
+        android:textSize="28sp"
         android:text="Pratos principais"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/detalhe_recycler_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -49,8 +51,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        android:textSize="24sp"
+        android:textSize="28sp"
         android:textColor="@color/white"
+        android:textStyle="bold"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="@+id/detalhe_foto_restaurante"
         app:layout_constraintStart_toStartOf="parent" />
