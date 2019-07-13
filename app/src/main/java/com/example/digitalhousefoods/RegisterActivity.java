@@ -75,12 +75,12 @@ public class RegisterActivity extends AppCompatActivity {
             nameEditText.setError("Campo obrigatório");
         } else {
 
-            Snackbar.make(view, "Registration successful", Snackbar.LENGTH_INDEFINITE).setAction("OK", new View.OnClickListener() {
+            Snackbar.make(view, "Registrado com sucesso", Snackbar.LENGTH_INDEFINITE).setAction("OK", new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     registroCompleto();
                 }
-            }).setActionTextColor(getResources().getColor(R.color.colorAccent)).show();
+            }).setActionTextColor(getResources().getColor(R.color.white)).show();
         }
 
 
