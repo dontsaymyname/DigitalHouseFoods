@@ -42,10 +42,17 @@ public class HomeActivity extends AppCompatActivity implements RestaurantesListe
 
         Restaurante restaurante3 = new Restaurante();
         restaurante3.setImageRestaurant(R.drawable.restaurant3);
-        restaurante3.setNameRestaurant("Jun Japanese Food");
-        restaurante3.setAddressRestaurant("International Shopping - Guarulhos");
-        restaurante3.setCloseRestaurant("Fecha às 22:00");
+        restaurante3.setNameRestaurant("Outback - Moema");
+        restaurante3.setAddressRestaurant("Av. Moaci, 187, 187 - Moema, São Paulo");
+        restaurante3.setCloseRestaurant("Fecha às 00:00");
         listaRestaurante.add(restaurante3);
+
+        Restaurante restaurante4 = new Restaurante();
+        restaurante4.setImageRestaurant(R.drawable.restaurant4);
+        restaurante4.setNameRestaurant("Sí Señor!");
+        restaurante4.setAddressRestaurant("Alameda Jauaperi, 626 - Moema");
+        restaurante4.setCloseRestaurant("Fecha às 01:00");
+        listaRestaurante.add(restaurante4);
 
         HomeAdapter homeAdapter = new HomeAdapter(listaRestaurante, this);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);

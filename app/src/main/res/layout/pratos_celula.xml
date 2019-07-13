@@ -18,7 +18,7 @@
     <ImageView
         android:id="@+id/detalhe_foto_prato"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="100dp"
         android:scaleType="centerCrop"
         />
 

@@ -35,12 +35,7 @@ public class CreditCardsActivity extends AppCompatActivity {
         creditCard2.setNome("Visa Santander");
         creditCard2.setNumero("5555 5555 5555 5555");
         listaCreditCard.add(creditCard2);
-        listaCreditCard.add(creditCard2);
-        listaCreditCard.add(creditCard2);
-        listaCreditCard.add(creditCard2);
-        listaCreditCard.add(creditCard2);
-        listaCreditCard.add(creditCard2);
-        listaCreditCard.add(creditCard2);
+
 
         CreditCardAdapter creditCardAdapter = new CreditCardAdapter(listaCreditCard, this);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
