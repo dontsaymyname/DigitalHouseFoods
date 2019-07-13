@@ -88,14 +88,6 @@ public class RegisterActivity extends AppCompatActivity {
 
     public void registroCompleto (){
         Intent intent = new Intent(this, HomeActivity.class);
-
-        Bundle bundleToProfile = new Bundle();
-        bundleToProfile.putString("NAME", nameEditText.getEditableText().toString());
-        bundleToProfile.putString("EMAIL", emailEditText.getEditableText().toString());
-        bundleToProfile.putString("PASSWORD", passwordEditText.getEditableText().toString());
-        bundleToProfile.putString("REPEATPASSWORD", repeatPasswordEditText.getEditableText().toString());
-
-        intent.putExtras(bundleToProfile);
         startActivity(intent);
     }
 }
